@@ -13,7 +13,10 @@
     "semi": [
       2,
       "always"
-    ]
+    ],
+    "no-redeclare": [2, {"builtinGlobals": false}],
+    "no-prototype-builtins": 0,
+    "no-useless-escape": "off"
   },
   "env": {
     "browser": true,
